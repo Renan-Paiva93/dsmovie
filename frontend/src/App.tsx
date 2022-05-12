@@ -1,9 +1,9 @@
-
+import NavBar from "./componets/Navbar";
 
 
 function App() {
   return (
-    <h1>Academia G7</h1>
+   <NavBar/>
   );
 }
 
