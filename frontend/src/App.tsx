@@ -1,3 +1,5 @@
+
+
 import {
   BrowserRouter,
   Routes,
@@ -8,6 +10,7 @@ import Form from 'pages/Form';
 import Navbar from "components/Navbar";
 
 function App() {
+  
   return (
     <BrowserRouter>
       <Navbar />
@@ -18,6 +21,7 @@ function App() {
         </Route>
       </Routes>
     </BrowserRouter>
+    
   );
 }
 

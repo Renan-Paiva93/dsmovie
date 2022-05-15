@@ -1,15 +1,16 @@
 package com.devsuperior.dsmovie.entities;
+import javax.persistence.EmbeddedId;
 import javax.persistence.Entity;
 import javax.persistence.Table;
 
 import org.springframework.beans.factory.annotation.Autowired;
 
-@Entity
-@Table
 
+@Entity
+@Table(name = "tb_score")
 public class Score {
 
-	 @Autowired
+	 @EmbeddedId
 	private ScorePK id = new ScorePK();
 	
 	private Double value;
